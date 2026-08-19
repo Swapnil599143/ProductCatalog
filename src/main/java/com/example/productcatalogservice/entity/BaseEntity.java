@@ -2,7 +2,7 @@ package com.example.productcatalogservice.entity;
 
 import java.time.LocalDateTime;
 
-public class BaseEntity {
+public abstract class BaseEntity {
     private Long id;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
