@@ -1,0 +1,33 @@
+package com.example.productcatalogservice.entity;
+
+import java.time.LocalDateTime;
+
+public class BaseEntity {
+    private Long id;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+
+    protected void setId(Long id){
+        this.id = id;
+    }
+
+    protected Long getId(){
+        return this.id;
+    }
+
+    protected void setCreatedAt(LocalDateTime createdAt){
+        this.createdAt = createdAt;
+    }
+
+    protected  LocalDateTime getCreatedAt(){
+        return this.createdAt;
+    }
+
+    protected void setUpdatedAt(LocalDateTime updatedAt){
+        this.updatedAt = updatedAt;
+    }
+
+    protected LocalDateTime getUpdatedAt(){
+        return this.updatedAt;
+    }
+}

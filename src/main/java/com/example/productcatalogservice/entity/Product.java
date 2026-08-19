@@ -1,7 +1,6 @@
 package com.example.productcatalogservice.entity;
 
-public class Product {
-    private Long productId;
+public class Product extends BaseEntity {
     private String productName;
     private String description;
     private Integer quantity;

@@ -2,8 +2,7 @@ package com.example.productcatalogservice.entity;
 
 import java.util.List;
 
-public class Category {
-    private Long categoryId;
+public class Category extends BaseEntity {
     private String categoryName;
     private List<Product> products;
 }
